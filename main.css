@@ -1,0 +1,59 @@
+#pole {
+    /*border: 1px solid black;*/
+    /*background-color: aqua;*/
+    width: 420px;
+    height: 420px;
+}
+
+.bar {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: gray;
+    border: 1px solid;
+    position: absolute;
+}
+
+.cell {
+    background-color: yellow;
+}
+
+.checker-black {
+    border-radius: 50px;
+    background-color: black;
+}
+
+.checker-white {
+    border-radius: 50px;
+    background-color: white;
+}
+
+/* figures */
+.figure.checker {
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.figure.checker.white {background-color: white;}
+.figure.checker.black {background-color: black;}
+
+.figure.active {
+    border: 4px solid red;
+    box-sizing: border-box;
+}
+
+/* players */
+.player.point {
+    border: 1px solid blue;
+}
+
+.player.point.white {
+    background-color: white;
+    color: black;
+}
+
+.player.point.black {
+    background-color: black;
+    color: white;
+}
